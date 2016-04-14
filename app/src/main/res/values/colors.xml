@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffff5722</color>
+    <color name="colorPrimaryDark">#ffbf360c</color>
+    <color name="colorAccent">#ffff5722</color>
+    <color name="gray">#BEBEBE</color>
+    <color name="light_toolbar">@android:color/holo_blue_dark</color>
+    <color name="dark_toolbar">@android:color/black</color>
+    <color name="light_news_item">#FFF0F0F0</color>
+    <color name="dark_news_item">#DD000000</color>
+    <color name="light_news_topic">#ff666666</color>
+    <color name="dark_news_topic">#CCFFFFFF</color>
+    <color name="dark_selector_drawable">#FF333333</color>
+    <color name="light_menu_header">@android:color/holo_blue_dark</color>
+    <color name="dark_menu_header">@android:color/black</color>
+    <color name="light_menu_header_tv">@android:color/white</color>
+    <color name="dark_menu_header_tv">#CCFFFFFF</color>
+    <color name="light_menu_index_background">#FFF0F0F0</color>
+    <color name="dark_menu_index_background">#FF111111</color>
+    <color name="light_menu_listview_background">@android:color/white</color>
+    <color name="dark_menu_listview_background">#FF222222</color>
+    <color name="light_menu_listview_textcolor">#FF000000</color>
+    <color name="dark_menu_listview_textcolor">@android:color/darker_gray</color>
+    <color name="clicked_tv_textcolor">@android:color/darker_gray</color>
+    <color name="recyclebackgroupcolor">#3B3B3B</color>
+    <color name="playOrPauseButton">#ffff5722</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+    <color name="music_item_name_defaule_color">#005555</color>
+    <color name="music_item_duration_defaule_color">#555555</color>
+    <color name="music_item_artist_defaule_color">#888888</color>
+    <color name="media_item_icon_playing">#ffff5722</color>
+    <color name="media_item_icon_not_playing">#ccc</color>
+    <color name="notification_background">#004D40</color>
+
+</resources>

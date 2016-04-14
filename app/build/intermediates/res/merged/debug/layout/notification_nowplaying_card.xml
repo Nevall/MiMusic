@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topContainer"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_gravity="top"
+    android:orientation="horizontal"
+    android:background="@color/notification_background" >
+
+    <ImageView
+        android:id="@+id/notification_album_art"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:scaleType="centerCrop"
+         />
+
+    <LinearLayout
+        android:id="@+id/notification_content"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="12dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notification_title"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Demons"
+            android:textSize="18sp" 
+            />
+
+        <TextView
+            android:id="@+id/notification_artist"
+            style="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:text="John Doe and Band"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/notification_play_pause"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_pause_white" />
+
+        <ImageButton
+            android:id="@+id/notification_next"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_next_white" />
+        <ImageButton
+            android:id="@+id/notification_clear"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:background="@null"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_clear_white" />
+
+</LinearLayout>
